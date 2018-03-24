@@ -1,4 +1,4 @@
-# Wmos D1 mini with e+e C02 sensor EE871
+# Wemos D1 mini with e+e C02 sensor EE871
 # E+E 2 beam infrared cell, 0 ... 5000 ppm
 # distribute data via Thingspeak
 # Channel ID: <channel id>
