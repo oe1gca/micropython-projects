@@ -1,4 +1,4 @@
-# Wmos D1 mini with memsic C2120M compass sensor
+# Wemos D1 mini with memsic C2120M compass sensor
 # distribute data via Thingspeak
 # Channel ID: <channel id>
 # Field 1: Compass value
@@ -20,7 +20,7 @@ led=Pin(2,Pin.OUT)
 led.value(1)
 i2c=I2C(scl=Pin(5), sda=Pin(4))
 
-API_KEY = "<our write api key"
+API_KEY = "your write api key"
 HOST = "api.thingspeak.com"
 
 def set_coil():
